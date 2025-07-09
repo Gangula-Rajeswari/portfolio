@@ -1,0 +1,436 @@
+.hi-there {
+    font-size: 50px;
+    color: black;
+    border: none;
+    background-color: white;
+	
+    
+}
+.name {
+    font-size: 50px;
+    color: black;
+    border: none;
+    background-color: white;
+	
+}
+.portfolio-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff; 
+}
+
+.navbar-nav .nav-link {
+    color:black;
+    font-weight: bold;
+    padding-right: 30px;
+    font-size: 18px;
+    margin-right:10px;
+}
+
+.navbar1 {
+    background-color:whitesmoke;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+}
+
+#navbarNav {
+    background-color: whitesmoke;
+    text-align: justify;
+    
+}
+.navbar-toggler-icon{
+    margin-top: 12px;
+    margin-bottom: 0px;
+    
+    border: none;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0056b3;
+    border-bottom: 2px solid blue;
+}
+.navbar-nav .nav-link.active {
+    color: #0056b3;
+    border-bottom: 2px solid blue;
+}
+
+
+
+.animated-text::after {
+    content: "";
+    display: block;
+    font-weight: bold;
+    color: darkgray;
+    font-size: 1.2rem;
+    animation: textchange 11s ease-in-out infinite;
+}
+
+@keyframes textchange {
+    0% { content: "J"; }
+    5% { content: "Ja"; }
+    10% { content: "Jav"; }
+    15% { content: "Java"; }
+    20% { content: "Java F"; }
+    25% { content: "Java Fu"; }
+    30% { content: "Java Full-"; }
+    35% { content: "Java Full-S"; }
+    40% { content: "Java Full-St"; }
+    45% { content: "Java Full-Stac"; }
+    50% { content: "Java Full-Stack"; }
+    55% { content: "Java Full-Stack D"; }
+    60% { content: "Java Full-Stack De"; }
+    65% { content: "Java Full-Stack Dev"; }
+    70% { content: "Java Full-Stack Deve"; }
+    75% { content: "Java Full-Stack Devel"; }
+    80% { content: "Java Full-Stack Develo"; }
+    85% { content: "Java Full-Stack Develop"; }
+    90% { content: "Java Full-Stack Develope"; }
+    95% { content: "Java Full-Stack Developer"; }
+    100% { content: "Java Full-Stack Developer..."; }
+}
+
+
+#home {
+    position: relative;
+    height: 90vh;
+    overflow: hidden; /* Prevent content overflow */
+    align-content: center;
+}
+
+
+.background-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/black3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+
+.content {
+    position: relative;
+    z-index: 2; 
+    color: white; 
+	background-image: url("images/black3.jpg");
+}
+
+.details {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px; 
+    
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+    box-shadow: 3 4px 6px rgba(0, 0, 0, 0.1); 
+    margin-left: 100px;
+	margin-top: 50px;
+	background-image: url("images/black3.jpg");
+}
+
+.hire-me-btn {
+    font-size: 20px;
+    color: orange;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.hire-me-btn:hover {
+    transform: scale(1.1);
+    background-color: orange;
+    color: white;
+}
+
+#about {
+    height: auto; /* Remove 100vh for better responsiveness */
+    background: #e9ecef;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	margin:50px;
+	border:1px solid;
+	margin-bottom:10px;
+}
+
+#about img {
+    width: 280px;
+    height: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    
+}
+
+#about .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+
+#about a {
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+#education{
+    height: 85vh; 
+    background: #ced4da;
+    padding: 50px;
+	margin:50px;
+	border:1px solid;
+	margin-bottom:10px;
+}
+
+.card .card-body img{
+    width: 100%;
+    height:200px;
+    text-align: center;
+    
+
+}
+    
+#skills{
+    height: 70vh; 
+    background: #adb5bd; 
+    padding: 50px;
+	margin:50px;
+	border:1px solid;
+	margin-bottom:10px;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+#contact{
+    height: 80vh; 
+    background: #495057; 
+    padding: 50px;
+}
+#contact .card {
+    margin-top: 30px;
+  }
+#contact .card img {
+    height:350px;
+  }
+#contact .input-group-prepend {
+    background-color: none;
+  }
+  #footer{
+    height:50vh;
+    background-color: rgb(81, 57, 104);
+    padding: 50px;
+}
+#footer a:hover{
+    border-bottom: none;
+}
+
+#certificates{
+   height: 100vh;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   background: #adb5bd; 
+   margin:50px;
+	border:1px solid;
+	margin-bottom:10px;
+   
+}
+#certificates .disp {
+    position: absolute;
+    bottom: 100%; 
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.5s ease; 
+    z-index: 1;
+}
+#certificates .project-card:hover .disp {
+    bottom: 0; 
+}
+
+
+@media screen and (max-width: 767px) {
+    .portfolio-title {
+        text-align: center;
+        font-size: 1.2rem;
+        
+    }
+    .navbar1 {
+        padding: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar-toggler-icon {
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);}
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+
+    
+    #home {
+        padding: 50px 15px;
+        height:700px;
+    }
+
+    .details {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 20px; 
+    }
+
+    .photo {
+        text-align: center;
+    }
+
+    .photo img {
+        width: 80%;
+        margin-left: 0; 
+    }
+    #about .row {
+        flex-direction: row; 
+        text-align: left;
+    }
+
+    #about img {
+        
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    #about h1 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    #about .col-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #about a {
+        width: 100%; 
+        text-align: center;
+        padding: 12px;
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+    #education{
+        height: 250vh; 
+        background: #ced4da;
+        padding: 50px;
+    }
+    .card{
+        width:100%;
+        margin-bottom: 10px;
+
+    }
+    .card-body img{
+        width:120px;
+        height:150px;
+    }
+    #education h1{
+        font-size: 25px;
+    }
+    #education p{
+        font-size: 15px;
+        color:green;
+    }
+    #skills{
+        height: 210vh; 
+        background: #adb5bd; 
+        padding: 50px;
+    }
+    #skills .col-6{
+        margin-top: 5px;
+    }
+    #projects{
+        height: 230vh;
+    }
+    #projects .project-card {
+        cursor: pointer; 
+    }
+
+    #projects .disp {
+        font-size: 14px;
+        padding: 10px; 
+    }
+
+    #projects .disp .btn {
+        padding: 8px 12px;
+        font-size: 12px; 
+    }
+    #contact .row {
+        flex-direction: column; /* Stack the form and image vertically */
+        text-align: center; /* Center align the content */
+      }
+    
+      #contact .col-12 {
+        margin-bottom: 20px; /* Add space between stacked columns */
+      }
+     
+      #contact .card {
+        padding: 10px;
+        width:100%;
+      }
+      #contact .card img{
+        overflow: hidden;
+        width:150px;
+      }
+    
+      #contact .input-group {
+        margin-bottom: 15px;
+      }
+    
+      #contact button {
+        width: 100%;
+        margin-top: 20px;
+      }
+      #contact{
+        height: 120vh; 
+        background: #495057; 
+        padding: 50px;
+    }
+    #contact .card img {
+        height:150px;
+      }
+
+    #footer{
+        height:170vh;
+        background-color: rgb(81, 57, 104);
+        
+        padding: 50px;
+    }
+    #certificates{
+        height:141vh;
+     }
+}
